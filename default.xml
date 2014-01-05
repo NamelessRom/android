@@ -12,6 +12,9 @@
            fetch="https://github.com/NamelessRom"
            review="gerrit.nameless-rom.org" />
 
+  <remote  name="cm"
+           fetch="https://github.com/CyanogenMod" />
+
   <default revision="refs/heads/cm-11.0"
            remote="github"
            sync-c="true"
