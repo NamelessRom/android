@@ -373,7 +373,7 @@
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" />
   <project path="packages/apps/UnifiedEmail" name="CyanogenMod/android_packages_apps_UnifiedEmail" />
   <project path="packages/apps/UpdateCenter" name="android_packages_apps_UpdateCenter" remote="nameless" revision="android-4.4" />
-  <project path="packages/apps/VideoEditor" name="CyanogenMod/android_packages_apps_VideoEditor" />
+  <project path="packages/apps/VideoEditor" name="CyanogenMod/android_packages_apps_VideoEditor" groups="notdefault" />
   <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" />
   <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="nameless" revision="android-4.4" />
