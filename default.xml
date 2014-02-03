@@ -358,6 +358,7 @@
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" />
   <project path="packages/apps/CustomLauncher3" name="android_packages_apps_CustomLauncher3" remote="nameless" revision="android-4.4" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="nameless" revision="android-4.4" />
+  <project path="packages/apps/NamelessSetupWizard" name="android_packages_apps_NamelessSetupWizard" remote="nameless" revision="android-4.4" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
