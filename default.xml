@@ -53,6 +53,7 @@
   <project path="device/sample" name="CyanogenMod/android_device_sample" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" groups="pdk" />
+  <project path="external/acra" name="android_external_acra" remote="nameless" revision="android-4.4" />
   <project path="external/android-clat" name="CyanogenMod/android_external_android-clat" />
   <project path="external/android-mock" name="CyanogenMod/android_external_android-mock" />
   <project path="external/ant-glob" name="CyanogenMod/android_external_ant-glob" />
