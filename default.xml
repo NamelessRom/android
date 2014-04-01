@@ -51,6 +51,7 @@
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="nameless" revision="android-4.4" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="nameless" revision="android-4.4" />
   <project path="packages/apps/NamelessSetupWizard" name="android_packages_apps_NamelessSetupWizard" remote="nameless" revision="android-4.4" />
+  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="nameless" revision="android-4.4" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="nameless" revision="android-4.4" />
   <project path="packages/apps/UpdateCenter" name="android_packages_apps_UpdateCenter" remote="nameless" revision="android-4.4" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="nameless" revision="android-4.4" />
@@ -379,10 +380,8 @@
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
-  <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
-  <project path="packages/apps/QuickSearchBox" name="CyanogenMod/android_packages_apps_QuickSearchBox" groups="notdefault" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/SpeechRecorder" name="CyanogenMod/android_packages_apps_SpeechRecorder" />
