@@ -21,7 +21,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="android_build" remote="nameless" revision="android-4.4" >
+  <project path="build" name="android_build" remote="nameless" revision="msim" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -34,29 +34,29 @@
   <project path="external/changeloglib" name="android_external_changeloglib" remote="nameless" revision="android-4.4" />
   <project path="external/google" name="android_external_google" remote="nameless" revision="android-4.4" />
   <project path="frameworks/av" name="android_frameworks_av" remote="nameless" revision="android-4.4" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="nameless" revision="android-4.4" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="nameless" revision="msim" />
   <project path="frameworks/native" name="android_frameworks_native" remote="nameless" revision="android-4.4" />
   <project path="frameworks/opt/cards" name="android_frameworks_opt_cards" remote="nameless" revision="android-4.4" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="nameless" revision="android-4.4" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="nameless" revision="msim" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="broadcom_wlan" remote="nameless" revision="android-4.4" />
   <project path="hardware/ti/omap3" name="android_hardware_ti_omap3" remote="nameless" revision="android-4.4" />
   <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="nameless" revision="android-4.4" />
   <project path="packages/apps/CustomLauncher3" name="android_packages_apps_CustomLauncher3" remote="nameless" revision="android-4.4" />
   <project path="packages/apps/DashClock" name="android_packages_apps_DashClock" remote="nameless" revision="android-4.4" />
   <project path="packages/apps/DeviceControl" name="android_packages_apps_DeviceControl" remote="nameless" revision="android-4.4" />
-  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="nameless" revision="android-4.4" />
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="nameless" revision="msim" />
   <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="nameless" revision="android-4.4" />
   <project path="packages/apps/Flashlight" name="android_packages_apps_Flashlight" remote="nameless" revision="android-4.4" />
-  <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="nameless" revision="android-4.4" />
-  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="nameless" revision="android-4.4" />
+  <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="nameless" revision="msim" />
+  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="nameless" revision="msim" />
   <project path="packages/apps/NamelessSetupWizard" name="android_packages_apps_NamelessSetupWizard" remote="nameless" revision="android-4.4" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="nameless" revision="android-4.4" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="nameless" revision="android-4.4" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="nameless" revision="msim" />
   <project path="packages/apps/UpdateCenter" name="android_packages_apps_UpdateCenter" remote="nameless" revision="android-4.4" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="nameless" revision="android-4.4" />
   <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="nameless" revision="android-4.4" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="nameless" revision="android-4.4" />
-  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="nameless" revision="android-4.4" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="nameless" revision="msim" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="nameless" revision="android-4.4" />
   <project path="system/media" name="android_system_media" remote="nameless" revision="android-4.4" />
   <project path="vendor/nameless" name="android_vendor_nameless" remote="nameless" revision="android-4.4" />
