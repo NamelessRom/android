@@ -37,7 +37,6 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="nameless" revision="msim" />
   <project path="frameworks/native" name="android_frameworks_native" remote="nameless" revision="android-4.4" />
   <project path="frameworks/opt/cards" name="android_frameworks_opt_cards" remote="nameless" revision="android-4.4" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="nameless" revision="msim" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="broadcom_wlan" remote="nameless" revision="android-4.4" />
   <project path="hardware/ti/omap3" name="android_hardware_ti_omap3" remote="nameless" revision="android-4.4" />
   <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="nameless" revision="android-4.4" />
@@ -62,6 +61,8 @@
   <project path="vendor/nameless" name="android_vendor_nameless" remote="nameless" revision="android-4.4" />
   <project path="vendor/nameless/proprietary" name="android_vendor_nameless_proprietary" remote="nameless" revision="android-4.4" />
   <!-- Nameless   END -->
+
+  <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" />
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
