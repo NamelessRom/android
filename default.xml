@@ -29,7 +29,6 @@
 
   <!-- Nameless START -->
   <project path="bionic" name="android_bionic" groups="pdk" remote="nameless" revision="android-4.4" />
-  <project path="development" name="android_development" remote="nameless" revision="android-4.4" />
   <project path="external/acra" name="android_external_acra" remote="nameless" revision="android-4.4" />
   <project path="external/changeloglib" name="android_external_changeloglib" remote="nameless" revision="android-4.4" />
   <project path="external/google" name="android_external_google" remote="nameless" revision="android-4.4" />
@@ -73,6 +72,7 @@
   <project path="developers/demos" name="platform/developers/demos" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="developers/docs" name="platform/developers/docs" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="developers/samples/android" name="platform/developers/samples/android" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
+  <project path="development" name="CyanogenMod/android_development" />
   <project path="device/common" name="CyanogenMod/android_device_common" />
   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" />
   <project path="device/generic/armv7-a-neon" name="CyanogenMod/android_device_generic_armv7-a-neon" groups="pdk" />
