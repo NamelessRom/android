@@ -42,6 +42,7 @@
   <project path="packages/apps/CustomLauncher3" name="android_packages_apps_CustomLauncher3" remote="nameless" revision="android-4.4" />
   <project path="packages/apps/DashClock" name="android_packages_apps_DashClock" remote="nameless" revision="android-4.4" />
   <project path="packages/apps/DeviceControl" name="android_packages_apps_DeviceControl" remote="nameless" revision="android-4.4" />
+  <project path="packages/apps/DeviceControl/proprietary" name="android_packages_apps_DeviceControl_proprietary_stub" remote="nameless" revision="android-4.4" />
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="nameless" revision="android-4.4" />
   <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="nameless" revision="android-4.4" />
   <project path="packages/apps/Flashlight" name="android_packages_apps_Flashlight" remote="nameless" revision="android-4.4" />
