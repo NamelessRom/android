@@ -56,6 +56,7 @@
   <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="nameless" revision="android-4.4" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="nameless" revision="android-4.4" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="nameless" revision="android-4.4" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-cortex_a8-linux-gnueabi-linaro_4.7.4" name="CrazyWeasel/arm-cortex_a8-linux-gnueabi-linaro_4.7.4" remote="github" revision="android-4.4" groups="linaro" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="nameless" revision="android-4.4" />
   <project path="system/media" name="android_system_media" remote="nameless" revision="android-4.4" />
   <project path="vendor/nameless" name="android_vendor_nameless" remote="nameless" revision="android-4.4" />
