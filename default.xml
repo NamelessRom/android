@@ -28,6 +28,7 @@
   <project path="android" name="android" remote="nameless" revision="android-4.4" />
 
   <!-- Nameless START -->
+  <project path="art" name="android_art" remote="nameless" revision="android-4.4" />
   <project path="bionic" name="android_bionic" groups="pdk" remote="nameless" revision="android-4.4" />
   <project path="external/acra" name="android_external_acra" remote="nameless" revision="android-4.4" />
   <project path="external/changeloglib" name="android_external_changeloglib" remote="nameless" revision="android-4.4" />
@@ -36,6 +37,7 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="nameless" revision="android-4.4" />
   <project path="frameworks/native" name="android_frameworks_native" remote="nameless" revision="android-4.4" />
   <project path="frameworks/opt/cards" name="android_frameworks_opt_cards" remote="nameless" revision="android-4.4" />
+  <project path="frameworks/rs" name="android_frameworks_rs" remote="nameless" revision="android-4.4" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="broadcom_wlan" remote="nameless" revision="android-4.4" />
   <project path="hardware/ti/omap3" name="android_hardware_ti_omap3" remote="nameless" revision="android-4.4" />
   <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="nameless" revision="android-4.4" />
@@ -58,8 +60,6 @@
   <project path="system/media" name="android_system_media" remote="nameless" revision="android-4.4" />
   <project path="vendor/nameless" name="android_vendor_nameless" remote="nameless" revision="android-4.4" />
   <project path="vendor/nameless/proprietary" name="android_vendor_nameless_proprietary" remote="nameless" revision="android-4.4" />
-  <project path="art" name="android_art" remote="nameless" revision="android-4.4" />
-  <project path="frameworks/rs" name="android_frameworks_rs" remote="nameless" revision="android-4.4" groups="pdk" />
   <!-- Nameless   END -->
 
   <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" />
@@ -437,10 +437,10 @@
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="linux,arm" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" revision="refs/heads/master" remote="aosp" groups="pdk,linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="CrazyWeasel/arm_toolchains_linaro" remote="github" revision="4.8-eabi" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="linux,arm" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="aosp" revision="refs/heads/master" groups="pdk,linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="CrazyWeasel/arm_toolchains_linaro" remote="github" revision="4.8-androideabi" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="linux" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="linux" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" groups="linux" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
