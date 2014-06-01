@@ -58,6 +58,7 @@
   <project path="packages/apps/UpdateCenter" name="android_packages_apps_UpdateCenter" remote="nameless" revision="android-4.4" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="nameless" revision="android-4.4" />
   <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="nameless" revision="android-4.4" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="nameless" revision="android-4.4" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="nameless" revision="android-4.4" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="nameless" revision="android-4.4" />
   <project path="system/media" name="android_system_media" remote="nameless" revision="android-4.4" />
@@ -404,7 +405,6 @@
   <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" />
   <project path="packages/providers/ApplicationsProvider" name="CyanogenMod/android_packages_providers_ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="CyanogenMod/android_packages_providers_CalendarProvider" />
-  <project path="packages/providers/DownloadProvider" name="CyanogenMod/android_packages_providers_DownloadProvider" />
   <project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="CyanogenMod/android_packages_providers_PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" name="CyanogenMod/android_packages_providers_TelephonyProvider" />
