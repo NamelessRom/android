@@ -33,12 +33,14 @@
   <project path="external/acra" name="android_external_acra" remote="nameless" revision="android-4.4" />
   <project path="external/changeloglib" name="android_external_changeloglib" remote="nameless" revision="android-4.4" />
   <project path="external/google" name="android_external_google" remote="nameless" revision="android-4.4" />
+  <project path="external/skia" name="android_external_skia" remote="nameless" revision="android-4.4" />
   <project path="frameworks/av" name="android_frameworks_av" remote="nameless" revision="android-4.4" />
   <project path="frameworks/base" name="android_frameworks_base" remote="nameless" revision="android-4.4" />
   <project path="frameworks/native" name="android_frameworks_native" remote="nameless" revision="android-4.4" />
   <project path="frameworks/opt/cards" name="android_frameworks_opt_cards" remote="nameless" revision="android-4.4" />
   <project path="frameworks/rs" name="android_frameworks_rs" remote="nameless" revision="android-4.4" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="broadcom_wlan" remote="nameless" revision="android-4.4" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="nameless" revision="android-4.4" />
   <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf"  remote="nameless" revision="android-4.4" />
   <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="nameless" revision="android-4.4" />
   <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="nameless" revision="android-4.4" />
@@ -286,7 +288,6 @@
   <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
-  <project path="external/skia" name="CyanogenMod/android_external_skia" />
   <project path="external/smack" name="platform/external/smack" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="external/smali" name="CyanogenMod/android_external_smali" />
   <project path="external/sonivox" name="CyanogenMod/android_external_sonivox" groups="pdk" />
@@ -350,7 +351,6 @@
   <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" groups="pdk" />
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" />
