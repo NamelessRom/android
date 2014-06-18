@@ -32,6 +32,7 @@
   <project path="bionic" name="android_bionic" groups="pdk" remote="nameless" revision="android-4.4" />
   <project path="external/acra" name="android_external_acra" remote="nameless" revision="android-4.4" />
   <project path="external/changeloglib" name="android_external_changeloglib" remote="nameless" revision="android-4.4" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="nameless" revision="android-4.4" />
   <project path="external/google" name="android_external_google" remote="nameless" revision="android-4.4" />
   <project path="external/skia" name="android_external_skia" remote="nameless" revision="android-4.4" />
   <project path="frameworks/av" name="android_frameworks_av" remote="nameless" revision="android-4.4" />
@@ -157,7 +158,6 @@
   <project path="external/doclava" name="CyanogenMod/android_external_doclava" />
   <project path="external/dropbear" name="CyanogenMod/android_external_dropbear" />
   <project path="external/droiddriver" name="platform/external/droiddriver" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
-  <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" groups="pdk" />
   <project path="external/easymock" name="CyanogenMod/android_external_easymock" />
   <project path="external/eclipse-basebuilder" name="CyanogenMod/android_external_eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="CyanogenMod/android_external_eclipse-windowbuilder" />
