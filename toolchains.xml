@@ -20,6 +20,7 @@
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" revision="refs/heads/master" remote="aosp" groups="pdk,darwin,arm" />
   <!-- Linaro -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-cortex_a8-linux-gnueabi-linaro_4.7.4" name="CrazyWeasel/arm-cortex_a8-linux-gnueabi-linaro_4.7.4" remote="github" revision="android-4.4" groups="linaro" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-cortex_a8-linux-gnueabi-linaro_4.9.1" name="CrazyWeasel/arm-cortex_a8-linux-gnueabi-linaro_4.9.1" remote="github" revision="android-4.4" groups="linaro" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-cortex_a15-linux-gnueabihf-linaro_4.8.3" name="CrazyWeasel/arm-cortex_a15-linux-gnueabihf-linaro_4.8.3" remote="github" revision="android-4.4" groups="linaro" />
   <!-- MIPS -->
   <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.6" groups="linux,mips,notdefault" remote="aosp" revision="refs/tags/android-4.4.4_r1" />
