@@ -39,6 +39,7 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="nameless" revision="android-4.4" />
   <project path="frameworks/native" name="android_frameworks_native" remote="nameless" revision="android-4.4" />
   <project path="frameworks/opt/cards" name="android_frameworks_opt_cards" remote="nameless" revision="android-4.4" />
+  <project path="frameworks/opt/nameless" name="android_frameworks_opt_nameless" remote="nameless" revision="android-4.4" />
   <project path="frameworks/rs" name="android_frameworks_rs" remote="nameless" revision="android-4.4" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="broadcom_wlan" remote="nameless" revision="android-4.4" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="nameless" revision="android-4.4" />
