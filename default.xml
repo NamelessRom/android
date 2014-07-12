@@ -34,6 +34,8 @@
   <project path="external/changeloglib" name="android_external_changeloglib" remote="nameless" revision="android-4.4" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="nameless" revision="android-4.4" />
   <project path="external/google" name="android_external_google" remote="nameless" revision="android-4.4" />
+  <project path="external/koush/AndroidAsync" name="android_external_koush_AndroidAsync" remote="nameless" revision="android-4.4"/>
+  <project path="external/koush/ion" name="android_external_koush_ion" remote="nameless" revision="android-4.4"/>
   <project path="external/skia" name="android_external_skia" remote="nameless" revision="android-4.4" />
   <project path="frameworks/av" name="android_frameworks_av" remote="nameless" revision="android-4.4" />
   <project path="frameworks/base" name="android_frameworks_base" remote="nameless" revision="android-4.4" />
@@ -213,8 +215,6 @@
   <project path="external/junit" name="CyanogenMod/android_external_junit" />
   <project path="external/kernel-headers" name="CyanogenMod/android_external_kernel-headers" />
   <project path="external/kissfft" name="CyanogenMod/android_external_kissfft" />
-  <project path="external/koush/ion" name="CyanogenMod/ion" />
-  <project path="external/koush/AndroidAsync" name="CyanogenMod/AndroidAsync" />
   <project path="external/koush/Superuser" name="CyanogenMod/Superuser" />
   <project path="external/koush/Widgets" name="CyanogenMod/Widgets" />
   <project path="external/libcap-ng" name="CyanogenMod/android_external_libcap-ng" />
