@@ -63,7 +63,7 @@
   <project path="packages/apps/NamelessSetupWizard" name="android_packages_apps_NamelessSetupWizard" remote="nameless" revision="android-4.4" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="nameless" revision="android-4.4" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="nameless" revision="android-4.4" />
-  <project path="packages/apps/UpdateCenter" name="android_packages_apps_UpdateCenter" remote="nameless" revision="android-4.4" />
+  <project path="packages/apps/NamelessCenter" name="android_packages_apps_NamelessCenter" remote="nameless" revision="android-4.4" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="nameless" revision="android-4.4" />
   <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="nameless" revision="android-4.4" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="nameless" revision="android-4.4" />
