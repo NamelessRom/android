@@ -74,6 +74,7 @@
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="nameless" revision="android-4.4" />
   <project path="vendor/nameless" name="android_vendor_nameless" remote="nameless" revision="android-4.4" />
   <project path="vendor/nameless/proprietary" name="android_vendor_nameless_proprietary" remote="nameless" revision="android-4.4" />
+  <project path="vendor/nameless/vendorhack" name="android_vendor_nameless_vendorhack" remote="nameless" revision="android-4.4" />
   <!-- Nameless   END -->
 
   <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" />
