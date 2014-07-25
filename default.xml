@@ -47,7 +47,6 @@
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="broadcom_wlan" remote="nameless" revision="android-4.4" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="nameless" revision="android-4.4" />
   <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf"  remote="nameless" revision="android-4.4" />
-  <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="nameless" revision="android-4.4" />
   <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="nameless" revision="android-4.4" />
   <project path="hardware/ti/omap3" name="android_hardware_ti_omap3" remote="nameless" revision="android-4.4" />
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="nameless" revision="android-4.4" />
@@ -371,6 +370,7 @@
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" groups="qcom" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="qcom" />
+  <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" groups="qcom" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" />
