@@ -46,8 +46,6 @@
   <project path="frameworks/rs" name="android_frameworks_rs" remote="nameless" revision="android-4.4" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="broadcom_wlan" remote="nameless" revision="android-4.4" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="nameless" revision="android-4.4" />
-  <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf"  remote="nameless" revision="android-4.4" />
-  <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="nameless" revision="android-4.4" />
   <project path="hardware/ti/omap3" name="android_hardware_ti_omap3" remote="nameless" revision="android-4.4" />
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="nameless" revision="android-4.4" />
   <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="nameless" revision="android-4.4" />
@@ -367,6 +365,7 @@
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" groups="invensense" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom" />
+  <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" groups="qcom" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="qcom" />
@@ -374,6 +373,7 @@
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" groups="qcom" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" />
+  <project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" />
   <project path="hardware/qcom/msm8960" name="CyanogenMod/android_hardware_qcom_msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x74" name="CyanogenMod/android_hardware_qcom_msm8x74" groups="qcom_msm8x74" />
   <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" />
