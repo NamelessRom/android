@@ -34,6 +34,8 @@
   <project path="external/changeloglib" name="android_external_changeloglib" remote="nameless" revision="android-4.4" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="nameless" revision="android-4.4" />
   <project path="external/google" name="android_external_google" remote="nameless" revision="android-4.4" />
+  <project path="external/holoaccent" name="android_external_holoaccent" remote="nameless" revision="android-4.4" />
+  <project path="external/holocolorpicker" name="android_external_holocolorpicker" remote="nameless" revision="android-4.4" />
   <project path="external/koush/AndroidAsync" name="android_external_koush_AndroidAsync" remote="nameless" revision="android-4.4"/>
   <project path="external/koush/ion" name="android_external_koush_ion" remote="nameless" revision="android-4.4"/>
   <project path="external/otto" name="android_external_otto" remote="nameless" revision="android-4.4"/>
