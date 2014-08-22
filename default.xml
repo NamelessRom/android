@@ -38,6 +38,7 @@
   <project path="external/holocolorpicker" name="android_external_holocolorpicker" remote="nameless" revision="android-4.4" />
   <project path="external/koush/AndroidAsync" name="android_external_koush_AndroidAsync" remote="nameless" revision="android-4.4"/>
   <project path="external/koush/ion" name="android_external_koush_ion" remote="nameless" revision="android-4.4"/>
+  <project path="external/mpandroidchart" name="android_external_mpandroidchart" remote="nameless" revision="android-4.4"/>
   <project path="external/otto" name="android_external_otto" remote="nameless" revision="android-4.4"/>
   <project path="external/skia" name="android_external_skia" remote="nameless" revision="android-4.4" />
   <project path="frameworks/av" name="android_frameworks_av" remote="nameless" revision="android-4.4" />
