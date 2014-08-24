@@ -30,6 +30,7 @@
   <!-- Nameless START -->
   <project path="art" name="android_art" remote="nameless" revision="android-4.4" />
   <project path="bionic" name="android_bionic" groups="pdk" remote="nameless" revision="android-4.4" />
+  <project path="dalvik" name="android_dalvik" remote="nameless" revision="android-4.4" />
   <project path="external/acra" name="android_external_acra" remote="nameless" revision="android-4.4" />
   <project path="external/changeloglib" name="android_external_changeloglib" remote="nameless" revision="android-4.4" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="nameless" revision="android-4.4" />
@@ -85,7 +86,6 @@
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
   <project path="bootable/recovery-cm" name="CyanogenMod/android_bootable_recovery-cm" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.4.4_r2" groups="cts" />
-  <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="developers/demos" name="platform/developers/demos" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="developers/docs" name="platform/developers/docs" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
