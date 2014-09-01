@@ -32,7 +32,6 @@
   <project path="bionic" name="android_bionic" groups="pdk" remote="nameless" revision="android-4.4" />
   <project path="dalvik" name="android_dalvik" remote="nameless" revision="android-4.4" />
   <project path="external/acra" name="android_external_acra" remote="nameless" revision="android-4.4" />
-  <project path="external/changeloglib" name="android_external_changeloglib" remote="nameless" revision="android-4.4" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="nameless" revision="android-4.4" />
   <project path="external/fuse" name="android_external_fuse" remote="nameless" revision="android-4.4" />
   <project path="external/google" name="android_external_google" remote="nameless" revision="android-4.4" />
@@ -47,7 +46,6 @@
   <project path="frameworks/av" name="android_frameworks_av" remote="nameless" revision="android-4.4" />
   <project path="frameworks/base" name="android_frameworks_base" remote="nameless" revision="android-4.4" />
   <project path="frameworks/native" name="android_frameworks_native" remote="nameless" revision="android-4.4" />
-  <project path="frameworks/opt/cards" name="android_frameworks_opt_cards" remote="nameless" revision="android-4.4" />
   <project path="frameworks/opt/nameless" name="android_frameworks_opt_nameless" remote="nameless" revision="android-4.4" />
   <project path="frameworks/rs" name="android_frameworks_rs" remote="nameless" revision="android-4.4" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="broadcom_wlan" remote="nameless" revision="android-4.4" />
