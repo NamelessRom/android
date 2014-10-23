@@ -31,7 +31,6 @@
   <project path="art" name="android_art" remote="nameless" revision="android-4.4" />
   <project path="bionic" name="android_bionic" groups="pdk" remote="nameless" revision="android-4.4" />
   <project path="dalvik" name="android_dalvik" remote="nameless" revision="android-4.4" />
-  <project path="external/acra" name="android_external_acra" remote="nameless" revision="android-4.4" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="nameless" revision="android-4.4" />
   <project path="external/fuse" name="android_external_fuse" remote="nameless" revision="android-4.4" />
   <project path="external/google" name="android_external_google" remote="nameless" revision="android-4.4" />
