@@ -26,6 +26,7 @@
   <project path="external/holocolorpicker" name="NamelessRom/android_external_holocolorpicker" revision="n-2.0" />
   <project path="external/mpandroidchart" name="NamelessRom/android_external_mpandroidchart" revision="n-2.0" />
   <project path="external/otto" name="NamelessRom/android_external_otto" revision="n-2.0" />
+  <project path="frameworks/av" name="NamelessRom/android_frameworks_av" groups="pdk" revision="n-2.0" />
   <project path="frameworks/native" name="NamelessRom/android_frameworks_native" groups="pdk" revision="n-2.0" />
   <project path="frameworks/opt/nameless" name="NamelessRom/android_frameworks_opt_nameless" revision="n-2.0" />
   <project path="hardware/broadcom/wlan" name="NamelessRom/android_hardware_broadcom_wlan" groups="broadcom_wlan" revision="n-2.0" />
@@ -345,7 +346,6 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
-  <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
   <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
