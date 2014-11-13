@@ -35,7 +35,7 @@
   <project path="hardware/broadcom/wlan" name="NamelessRom/android_hardware_broadcom_wlan" groups="broadcom_wlan" revision="n-2.0" />
   <project path="hardware/libhardware" name="NamelessRom/android_hardware_libhardware" groups="pdk" revision="n-2.0" />
   <project path="hardware/ti/omap3" name="NamelessRom/android_hardware_ti_omap3" revision="n-2.0" />
-  <!--project path="packages/apps/DeviceControl" name="NamelessRom/android_packages_apps_DeviceControl" revision="n-2.0" /-->
+  <project path="packages/apps/DeviceControl" name="NamelessRom/android_packages_apps_DeviceControl" revision="n-2.0" />
   <!--project path="packages/apps/NamelessSetupWizard" name="NamelessRom/android_packages_apps_NamelessSetupWizard" revision="android-4.4" /-->
   <!--project path="packages/apps/Screencast" name="NamelessRom/android_packages_apps_Screencast" revision="android-4.4" /-->
   <project path="packages/apps/Settings" name="NamelessRom/android_packages_apps_Settings" revision="n-2.0" />
