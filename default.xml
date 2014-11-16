@@ -37,7 +37,7 @@
   <project path="hardware/ti/omap3" name="NamelessRom/android_hardware_ti_omap3" revision="n-2.0" />
   <project path="packages/apps/DeviceControl" name="NamelessRom/android_packages_apps_DeviceControl" revision="n-2.0" />
   <!--project path="packages/apps/NamelessSetupWizard" name="NamelessRom/android_packages_apps_NamelessSetupWizard" revision="android-4.4" /-->
-  <!--project path="packages/apps/Screencast" name="NamelessRom/android_packages_apps_Screencast" revision="android-4.4" /-->
+  <project path="packages/apps/Screencast" name="NamelessRom/android_packages_apps_Screencast" revision="n-2.0" />
   <project path="packages/apps/Settings" name="NamelessRom/android_packages_apps_Settings" revision="n-2.0" />
   <!--project path="packages/apps/Torch" name="NamelessRom/android_packages_apps_Torch" revision="n-2.0" /-->
   <!--project path="packages/providers/NamelessProvider" name="NamelessRom/android_packages_providers_NamelessProvider" revision="android-4.4" /-->
@@ -437,7 +437,7 @@
   <!--project path="packages/apps/CMAccount" name="CyanogenMod/android_packages_apps_CMAccount" /-->
   <!--project path="packages/apps/CMBugReport" name="CyanogenMod/android_packages_apps_CMBugreport" /-->
   <!--project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" /-->
-  <project path="packages/apps/CMHome" name="CyanogenMod/android_packages_apps_CMHome" />
+  <!--project path="packages/apps/CMHome" name="CyanogenMod/android_packages_apps_CMHome" /-->
   <!--project path="packages/apps/CMUpdater" name="CyanogenMod/android_packages_apps_CMUpdater" /-->
   <!--project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" /-->
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" />
@@ -468,10 +468,8 @@
   <project path="packages/apps/TvSettings" name="CyanogenMod/android_packages_apps_TvSettings" />
   <!-- <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" /> -->
   <project path="packages/apps/UnifiedEmail" name="CyanogenMod/android_packages_apps_UnifiedEmail" />
-  <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" />
   <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" />
   <project path="packages/inputmethods/LatinIME" name="CyanogenMod/android_packages_inputmethods_LatinIME" />
-  <project path="packages/inputmethods/OpenWnn" name="CyanogenMod/android_packages_inputmethods_OpenWnn" />
   <project path="packages/providers/ApplicationsProvider" name="CyanogenMod/android_packages_providers_ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="CyanogenMod/android_packages_providers_CalendarProvider" />
   <project path="packages/providers/ContactsProvider" name="CyanogenMod/android_packages_providers_ContactsProvider" />
