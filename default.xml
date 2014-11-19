@@ -42,7 +42,6 @@
   <!--project path="packages/apps/Torch" name="NamelessRom/android_packages_apps_Torch" revision="n-2.0" /-->
   <!--project path="packages/providers/NamelessProvider" name="NamelessRom/android_packages_providers_NamelessProvider" revision="android-4.4" /-->
   <project path="system/core" name="NamelessRom/android_system_core" groups="pdk" revision="n-2.0" />
-  <project path="system/vold" name="NamelessRom/android_system_vold" groups="pdk" revision="n-2.0" />
   <project path="vendor/nameless" name="NamelessRom/android_vendor_nameless" revision="n-2.0">
     <copyfile src="bootimage/Android.mk" dest="kernel/Android.mk" />
   </project>
@@ -551,6 +550,7 @@
   <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" />
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" />
+  <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
