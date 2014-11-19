@@ -36,11 +36,10 @@
   <project path="hardware/libhardware" name="NamelessRom/android_hardware_libhardware" groups="pdk" revision="n-2.0" />
   <project path="hardware/ti/omap3" name="NamelessRom/android_hardware_ti_omap3" revision="n-2.0" />
   <project path="packages/apps/DeviceControl" name="NamelessRom/android_packages_apps_DeviceControl" revision="n-2.0" />
-  <!--project path="packages/apps/NamelessSetupWizard" name="NamelessRom/android_packages_apps_NamelessSetupWizard" revision="android-4.4" /-->
+  <project path="packages/apps/NamelessOTA" name="NamelessRom/android_packages_apps_NamelessOTA" revision="n-2.0" />
   <project path="packages/apps/Screencast" name="NamelessRom/android_packages_apps_Screencast" revision="n-2.0" />
   <project path="packages/apps/Settings" name="NamelessRom/android_packages_apps_Settings" revision="n-2.0" />
   <!--project path="packages/apps/Torch" name="NamelessRom/android_packages_apps_Torch" revision="n-2.0" /-->
-  <!--project path="packages/providers/NamelessProvider" name="NamelessRom/android_packages_providers_NamelessProvider" revision="android-4.4" /-->
   <project path="system/core" name="NamelessRom/android_system_core" groups="pdk" revision="n-2.0" />
   <project path="vendor/nameless" name="NamelessRom/android_vendor_nameless" revision="n-2.0">
     <copyfile src="bootimage/Android.mk" dest="kernel/Android.mk" />
