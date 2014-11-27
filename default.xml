@@ -21,7 +21,7 @@
   <project path="android" name="NamelessRom/android" revision="n-2.0" />
 
   <!-- Nameless START -->
-  <project path="bootable/recovery-philz" name="NamelessRom/android_bootable_recovery-philz" revision="n-2.0" />
+  <project path="bootable/recovery-twrp" name="NamelessRom/android_bootable_recovery-twrp" revision="n-2.0" />
   <project path="external/holoaccent" name="NamelessRom/android_external_holoaccent" revision="n-2.0" />
   <project path="external/holocolorpicker" name="NamelessRom/android_external_holocolorpicker" revision="n-2.0" />
   <project path="external/koush/AndroidAsync" name="NamelessRom/android_external_koush_AndroidAsync" revision="n-2.0" />
