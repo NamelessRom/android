@@ -22,13 +22,10 @@
 
   <!-- Nameless START -->
   <project path="bootable/recovery-twrp" name="NamelessRom/android_bootable_recovery-twrp" revision="n-2.0" />
-  <project path="external/holoaccent" name="NamelessRom/android_external_holoaccent" revision="n-2.0" />
-  <project path="external/holocolorpicker" name="NamelessRom/android_external_holocolorpicker" revision="n-2.0" />
   <project path="external/koush/AndroidAsync" name="NamelessRom/android_external_koush_AndroidAsync" revision="n-2.0" />
   <project path="external/koush/ion" name="NamelessRom/android_external_koush_ion" revision="n-2.0" />
   <project path="external/koush/Superuser" name="NamelessRom/Superuser" revision="n-2.0" />
   <project path="external/mpandroidchart" name="NamelessRom/android_external_mpandroidchart" revision="n-2.0" />
-  <project path="external/otto" name="NamelessRom/android_external_otto" revision="n-2.0" />
   <project path="frameworks/av" name="NamelessRom/android_frameworks_av" groups="pdk" revision="n-2.0" />
   <project path="frameworks/base" name="NamelessRom/android_frameworks_base" revision="n-2.0" />
   <project path="frameworks/native" name="NamelessRom/android_frameworks_native" groups="pdk" revision="n-2.0" />
@@ -47,7 +44,6 @@
   <project path="vendor/nameless" name="NamelessRom/android_vendor_nameless" revision="n-2.0">
     <copyfile src="bootimage/Android.mk" dest="kernel/Android.mk" />
   </project>
-  <project path="vendor/nameless/proprietary" name="NamelessRom/android_vendor_nameless_proprietary" revision="n-2.0" />
   <project path="vendor/nameless/vendorhack" name="NamelessRom/android_vendor_nameless_vendorhack" revision="n-2.0" />
   <!-- Nameless END -->
 
