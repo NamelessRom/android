@@ -25,7 +25,6 @@
   <project path="bootable/recovery-twrp" name="NamelessRom/android_bootable_recovery-twrp" revision="n-2.0" />
   <project path="external/koush/AndroidAsync" name="NamelessRom/android_external_koush_AndroidAsync" revision="n-2.0" />
   <project path="external/koush/ion" name="NamelessRom/android_external_koush_ion" revision="n-2.0" />
-  <project path="external/koush/Superuser" name="NamelessRom/Superuser" revision="n-2.0" />
   <project path="external/mpandroidchart" name="NamelessRom/android_external_mpandroidchart" revision="n-2.0" />
   <project path="frameworks/av" name="NamelessRom/android_frameworks_av" groups="pdk" revision="n-2.0" />
   <project path="frameworks/base" name="NamelessRom/android_frameworks_base" revision="n-2.0" />
@@ -214,7 +213,6 @@
   <project path="external/ksoap2" name="platform/external/ksoap2" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/kissfft" name="CyanogenMod/android_external_kissfft" />
-  <project path="external/koush/Widgets" name="CyanogenMod/Widgets" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
@@ -545,6 +543,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="sdk" name="platform/sdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
+  <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" />
   <project path="system/keymaster" name="CyanogenMod/android_system_keymaster" groups="pdk" />
   <project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" />
