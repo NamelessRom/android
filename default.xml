@@ -45,7 +45,8 @@
   <project path="system/core" name="NamelessRom/android_system_core" groups="pdk" revision="n-2.0" />
   <project path="system/netd" name="NamelessRom/android_system_netd" groups="pdk" revision="n-2.0" />
   <project path="vendor/nameless" name="NamelessRom/android_vendor_nameless" revision="n-2.0">
-    <copyfile src="bootimage/Android.mk" dest="kernel/Android.mk" />
+    <copyfile src="quickcompile/bootimage/Android.mk" dest="kernel/Android.mk" />
+    <copyfile src="quickcompile/recovery/Android.mk" dest="bootable/Android.mk" />
   </project>
   <!-- Nameless END -->
 
