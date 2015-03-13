@@ -24,7 +24,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="NamelessRom/android" revision="n-2.0" />
+  <project path="android" name="NamelessRom/android" revision="n-2.0-jenkins" />
 
   <!-- Nameless START -->
   <project path="art" name="NamelessRom/android_art" groups="pdk" revision="n-2.0" />
@@ -56,6 +56,16 @@
     <copyfile src="quickcompile/recovery/Android.mk" dest="bootable/Android.mk" />
   </project>
   <!-- Nameless END -->
+
+  <!-- Devices START -->
+  <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-11.0" />
+  <project name="CrazyWeasel/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="n-2.0" />
+  <project name="NamelessRom/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" revision="n-2.0" />
+  <project name="NamelessRom/android_device_samsung_i9300" path="device/samsung/i9300" remote="github" revision="n-2.0" />
+  <project name="NamelessRom/android_device_samsung_n7100" path="device/samsung/n7100" remote="github" revision="n-2.0" />
+  <project name="NamelessRom/android_hardware_samsung" path="hardware/samsung" remote="github" revision="n-2.0" />
+  <project name="NamelessRom/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="n-2.0" />
+  <!-- Devices END -->
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
