@@ -35,6 +35,7 @@
   <project path="external/koush/ion" name="NamelessRom/android_external_koush_ion" revision="n-2.1" />
   <project path="external/mpandroidchart" name="NamelessRom/android_external_mpandroidchart" revision="n-2.1" />
   <project path="external/sepolicy" name="NamelessRom/android_external_sepolicy" groups="pdk" revision="n-2.1" />
+  <project path="external/skia" name="NamelessRom/android_external_skia" groups="pdk-cw-fs" revision="n-2.1" />
   <project path="frameworks/av" name="NamelessRom/android_frameworks_av" groups="pdk" revision="n-2.1" />
   <project path="frameworks/base" name="NamelessRom/android_frameworks_base" revision="n-2.1" />
   <project path="frameworks/native" name="NamelessRom/android_frameworks_native" groups="pdk" revision="n-2.1" />
@@ -326,7 +327,6 @@
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" remote="aosp" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" remote="aosp" />
   <project path="external/sfntly" name="platform/external/sfntly" groups="pdk-cw-fs,qcom_msm8x26" remote="aosp" />
-  <project path="external/skia" name="CyanogenMod/android_external_skia" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/smack" name="platform/external/smack" groups="pdk-cw-fw" remote="aosp" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/sonivox" name="CyanogenMod/android_external_sonivox" groups="pdk" />
