@@ -10,6 +10,11 @@
            fetch="https://github.com/"
            review="gerrit.nameless-rom.org" />
 
+  <remote  name="internal"
+           fetch="ssh://nameless"
+           revision="n-2.0"
+           review="gerrit.nameless-rom.org" />
+
   <default revision="refs/heads/cm-12.0"
            remote="github"
            sync-c="true"
