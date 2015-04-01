@@ -5,4 +5,4 @@ Work in Progress!
 
 To get started
 
-repo init -u https://github.com/NamelessRom/android.git -b n-2.0
+repo init -u https://github.com/NamelessRom/android.git -b n-2.1
