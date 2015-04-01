@@ -12,7 +12,7 @@
 
   <remote  name="internal"
            fetch="ssh://nameless"
-           revision="n-2.0"
+           revision="n-2.1"
            review="gerrit.nameless-rom.org" />
 
   <default revision="refs/heads/cm-12.1"
@@ -20,38 +20,38 @@
            sync-c="true"
            sync-j="16" />
 
-  <project path="build" name="NamelessRom/android_build" revision="n-2.0">
+  <project path="build" name="NamelessRom/android_build" revision="n-2.1">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="NamelessRom/android" revision="n-2.0" />
+  <project path="android" name="NamelessRom/android" revision="n-2.1" />
 
   <!-- Nameless START -->
-  <project path="art" name="NamelessRom/android_art" groups="pdk" revision="n-2.0" />
-  <project path="bionic" name="NamelessRom/android_bionic" groups="pdk" revision="n-2.0" />
-  <project path="bootable/recovery-twrp" name="NamelessRom/android_bootable_recovery-twrp" revision="n-2.0" />
-  <project path="device/qcom/sepolicy" name="NamelessRom/android_device_qcom_sepolicy" revision="n-2.0" />
-  <project path="external/koush/AndroidAsync" name="NamelessRom/android_external_koush_AndroidAsync" revision="n-2.0" />
-  <project path="external/koush/ion" name="NamelessRom/android_external_koush_ion" revision="n-2.0" />
-  <project path="external/mpandroidchart" name="NamelessRom/android_external_mpandroidchart" revision="n-2.0" />
-  <project path="external/sepolicy" name="NamelessRom/android_external_sepolicy" groups="pdk" revision="n-2.0" />
-  <project path="frameworks/av" name="NamelessRom/android_frameworks_av" groups="pdk" revision="n-2.0" />
-  <project path="frameworks/base" name="NamelessRom/android_frameworks_base" revision="n-2.0" />
-  <project path="frameworks/native" name="NamelessRom/android_frameworks_native" groups="pdk" revision="n-2.0" />
-  <project path="frameworks/volley" name="NamelessRom/android_frameworks_volley" revision="n-2.0" />
-  <project path="hardware/broadcom/wlan" name="NamelessRom/android_hardware_broadcom_wlan" groups="broadcom_wlan" revision="n-2.0" />
-  <project path="hardware/libhardware" name="NamelessRom/android_hardware_libhardware" groups="pdk" revision="n-2.0" />
-  <project path="hardware/ti/omap3" name="NamelessRom/android_hardware_ti_omap3" revision="n-2.0" />
-  <project path="libcore" name="NamelessRom/android_libcore" revision="n-2.0" />
-  <project path="packages/apps/DeviceControl" name="Evisceration/android_packages_apps_DeviceControl" revision="n-2.0" />
-  <project path="packages/apps/NamelessOTA" name="NamelessRom/android_packages_apps_NamelessOTA" revision="n-2.0" />
-  <project path="packages/apps/Perception" name="NamelessRom/android_packages_apps_Perception" revision="n-2.0" />
-  <project path="packages/apps/Screencast" name="NamelessRom/android_packages_apps_Screencast" revision="n-2.0" />
-  <project path="packages/apps/Settings" name="NamelessRom/android_packages_apps_Settings" revision="n-2.0" />
-  <project path="packages/apps/SetupWizard" name="NamelessRom/android_packages_apps_SetupWizard" revision="n-2.0" />
-  <project path="system/core" name="NamelessRom/android_system_core" groups="pdk" revision="n-2.0" />
-  <project path="system/netd" name="NamelessRom/android_system_netd" groups="pdk" revision="n-2.0" />
-  <project path="vendor/nameless" name="NamelessRom/android_vendor_nameless" revision="n-2.0">
+  <project path="art" name="NamelessRom/android_art" groups="pdk" revision="n-2.1" />
+  <project path="bionic" name="NamelessRom/android_bionic" groups="pdk" revision="n-2.1" />
+  <project path="bootable/recovery-twrp" name="NamelessRom/android_bootable_recovery-twrp" revision="n-2.1" />
+  <project path="device/qcom/sepolicy" name="NamelessRom/android_device_qcom_sepolicy" revision="n-2.1" />
+  <project path="external/koush/AndroidAsync" name="NamelessRom/android_external_koush_AndroidAsync" revision="n-2.1" />
+  <project path="external/koush/ion" name="NamelessRom/android_external_koush_ion" revision="n-2.1" />
+  <project path="external/mpandroidchart" name="NamelessRom/android_external_mpandroidchart" revision="n-2.1" />
+  <project path="external/sepolicy" name="NamelessRom/android_external_sepolicy" groups="pdk" revision="n-2.1" />
+  <project path="frameworks/av" name="NamelessRom/android_frameworks_av" groups="pdk" revision="n-2.1" />
+  <project path="frameworks/base" name="NamelessRom/android_frameworks_base" revision="n-2.1" />
+  <project path="frameworks/native" name="NamelessRom/android_frameworks_native" groups="pdk" revision="n-2.1" />
+  <project path="frameworks/volley" name="NamelessRom/android_frameworks_volley" revision="n-2.1" />
+  <project path="hardware/broadcom/wlan" name="NamelessRom/android_hardware_broadcom_wlan" groups="broadcom_wlan" revision="n-2.1" />
+  <project path="hardware/libhardware" name="NamelessRom/android_hardware_libhardware" groups="pdk" revision="n-2.1" />
+  <project path="hardware/ti/omap3" name="NamelessRom/android_hardware_ti_omap3" revision="n-2.1" />
+  <project path="libcore" name="NamelessRom/android_libcore" revision="n-2.1" />
+  <project path="packages/apps/DeviceControl" name="Evisceration/android_packages_apps_DeviceControl" revision="n-2.1" />
+  <project path="packages/apps/NamelessOTA" name="NamelessRom/android_packages_apps_NamelessOTA" revision="n-2.1" />
+  <project path="packages/apps/Perception" name="NamelessRom/android_packages_apps_Perception" revision="n-2.1" />
+  <project path="packages/apps/Screencast" name="NamelessRom/android_packages_apps_Screencast" revision="n-2.1" />
+  <project path="packages/apps/Settings" name="NamelessRom/android_packages_apps_Settings" revision="n-2.1" />
+  <project path="packages/apps/SetupWizard" name="NamelessRom/android_packages_apps_SetupWizard" revision="n-2.1" />
+  <project path="system/core" name="NamelessRom/android_system_core" groups="pdk" revision="n-2.1" />
+  <project path="system/netd" name="NamelessRom/android_system_netd" groups="pdk" revision="n-2.1" />
+  <project path="vendor/nameless" name="NamelessRom/android_vendor_nameless" revision="n-2.1">
     <copyfile src="quickcompile/bootimage/Android.mk" dest="kernel/Android.mk" />
     <copyfile src="quickcompile/recovery/Android.mk" dest="bootable/Android.mk" />
   </project>
@@ -133,7 +133,6 @@
   <project path="external/chromium_org/third_party/libyuv" name="platform/external/chromium_org/third_party/libyuv" remote="aosp" />
   <project path="external/chromium_org/third_party/mesa/src" name="platform/external/chromium_org/third_party/mesa/src" remote="aosp" />
   <project path="external/chromium_org/third_party/openmax_dl" name="platform/external/chromium_org/third_party/openmax_dl" remote="aosp" />
-  <project path="external/chromium_org/third_party/openssl" name="CyanogenMod/android_external_chromium_org_third_party_openssl" />
   <project path="external/chromium_org/third_party/opus/src" name="platform/external/chromium_org/third_party/opus/src" remote="aosp" />
   <project path="external/chromium_org/third_party/ots" name="platform/external/chromium_org/third_party/ots" remote="aosp" />
   <project path="external/chromium_org/third_party/sfntly/cpp/src" name="platform/external/chromium_org/third_party/sfntly/cpp/src" remote="aosp" />
@@ -297,6 +296,7 @@
   <project path="external/opencv" name="platform/external/opencv" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/openfst" name="platform/external/openfst" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/openssh" name="CyanogenMod/android_external_openssh" />
+  <project path="external/openssl" name="CyanogenMod/android_external_openssl" />
   <project path="external/oprofile" name="platform/external/oprofile" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/owasp/sanitizer" name="platform/external/owasp/sanitizer" remote="aosp" />
   <project path="external/pciutils" name="CyanogenMod/android_external_pciutils" />
@@ -390,7 +390,6 @@
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" remote="aosp" />
   <project path="frameworks/rs" name="CyanogenMod/android_frameworks_rs" groups="pdk" />
   <project path="frameworks/support" name="CyanogenMod/android_frameworks_support" />
-  <project path="frameworks/testing" name="CyanogenMod/android_frameworks_testing" />
   <project path="frameworks/webview" name="CyanogenMod/android_frameworks_webview" />
   <project path="frameworks/wilhelm" name="CyanogenMod/android_frameworks_wilhelm" />
   <project path="hardware/akm" name="CyanogenMod/android_hardware_akm" groups="pdk" />
