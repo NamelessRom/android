@@ -55,6 +55,7 @@
     <copyfile src="quickcompile/bootimage/Android.mk" dest="kernel/Android.mk" />
     <copyfile src="quickcompile/recovery/Android.mk" dest="bootable/Android.mk" />
   </project>
+  <project path="vendor/nameless/api" name="NamelessRom/website_api" revision="master" />
   <!-- Nameless END -->
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
