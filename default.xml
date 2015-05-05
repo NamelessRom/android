@@ -27,7 +27,6 @@
   <project path="android" name="NamelessRom/android" revision="n-2.1" />
 
   <!-- Nameless START -->
-  <project path="art" name="NamelessRom/android_art" groups="pdk" revision="n-2.1" />
   <project path="bionic" name="NamelessRom/android_bionic" groups="pdk" revision="n-2.1" />
   <project path="bootable/recovery-twrp" name="NamelessRom/android_bootable_recovery-twrp" revision="n-2.1" />
   <project path="device/qcom/sepolicy" name="NamelessRom/android_device_qcom_sepolicy" revision="n-2.1" />
@@ -59,6 +58,7 @@
   <!-- Nameless END -->
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
+  <project path="art" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
   <project path="cts" name="CyanogenMod/android_cts" groups="cts,pdk-cw-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" remote="aosp" />
