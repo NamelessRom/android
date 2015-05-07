@@ -43,7 +43,6 @@
   <project path="hardware/libhardware" name="NamelessRom/android_hardware_libhardware" groups="pdk" revision="n-2.1" />
   <project path="hardware/ti/omap3" name="NamelessRom/android_hardware_ti_omap3" revision="n-2.1" />
   <project path="libcore" name="NamelessRom/android_libcore" revision="n-2.1" />
-  <project path="packages/apps/DeviceControl" name="Evisceration/android_packages_apps_DeviceControl" revision="n-2.1" />
   <project path="packages/apps/NamelessOTA" name="NamelessRom/android_packages_apps_NamelessOTA" revision="n-2.1" />
   <project path="packages/apps/Perception" name="NamelessRom/android_packages_apps_Perception" revision="n-2.1" />
   <project path="packages/apps/Screencast" name="NamelessRom/android_packages_apps_Screencast" revision="n-2.1" />
@@ -56,6 +55,11 @@
   </project>
   <project path="vendor/nameless/api" name="NamelessRom/website_api" revision="master" />
   <!-- Nameless END -->
+
+  <!-- Device Control START -->
+  <project path="packages/apps/DeviceControl" name="Evisceration/android_packages_apps_DeviceControl" revision="n-2.1" />
+  <project path="external/evisceration/logger" name="Evisceration/logger" revision="master" />
+  <!-- Device Control END -->
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
