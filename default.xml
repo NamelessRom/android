@@ -60,6 +60,7 @@
   <!-- Device Control START -->
   <project path="packages/apps/DeviceControl" name="Evisceration/android_packages_apps_DeviceControl" revision="n-2.1" />
   <project path="external/evisceration/logger" name="Evisceration/logger" revision="master" />
+  <project path="external/evisceration/MaterialPreferences" name="Evisceration/MaterialPreferences" revision="master" />
   <!-- Device Control END -->
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
