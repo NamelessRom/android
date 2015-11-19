@@ -38,6 +38,7 @@
   <!--<project path="packages/apps/SetupWizard" name="NamelessRom/android_packages_apps_SetupWizard" revision="n-2.1" />-->
   <project path="system/core" name="NamelessRom/android_system_core" groups="pdk" revision="n-3.0" />
   <project path="system/vold" name="NamelessRom/android_system_vold" groups="pdk" revision="n-3.0" />
+  <project path="vendor/cm" name="NamelessRom/android_vendor_cm_dummy" revision="n-3.0" />
   <project path="vendor/nameless" name="NamelessRom/android_vendor_nameless" revision="n-3.0">
     <copyfile src="quickcompile/bootimage/Android.mk" dest="kernel/Android.mk" />
     <copyfile src="quickcompile/recovery/Android.mk" dest="bootable/Android.mk" />
