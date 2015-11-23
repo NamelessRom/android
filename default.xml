@@ -44,6 +44,7 @@
     <copyfile src="quickcompile/recovery/Android.mk" dest="bootable/Android.mk" />
   </project>
   <project path="vendor/nameless/api" name="NamelessRom/website_api" revision="master" />
+  <project path="vendor/namelesssdk" name="NamelessRom/nameless_platform_sdk" revision="n-3.0" />
 <!-- END NAMELESS -->
 
 <!-- BEGIN CYANOGENMOD -->
