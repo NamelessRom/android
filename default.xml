@@ -30,6 +30,7 @@
   <project path="frameworks/native" name="NamelessRom/android_frameworks_native" groups="pdk" revision="n-3.0" />
   <!--<project path="frameworks/volley" name="NamelessRom/android_frameworks_volley" revision="n-2.1" />-->
   <!--<project path="hardware/libhardware" name="NamelessRom/android_hardware_libhardware" groups="pdk" revision="n-2.1" />-->
+  <project path="hardware/qcom/display-caf/msm8974" name="NamelessRom/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="n-3.0-caf-8974" />
   <!--<project path="libcore" name="NamelessRom/android_libcore" revision="n-2.1" />-->
   <!--<project path="packages/apps/NamelessOTA" name="NamelessRom/android_packages_apps_NamelessOTA" revision="n-2.1" />-->
   <project path="packages/apps/Perception" name="NamelessRom/android_packages_apps_Perception" revision="n-3.0" />
@@ -217,7 +218,7 @@
   <project path="hardware/qcom/display-caf/apq8084" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-13.0-caf-8084" />
   <project path="hardware/qcom/display-caf/msm8916" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-13.0-caf-8916" />
   <project path="hardware/qcom/display-caf/msm8960" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-13.0-caf-8960" />
-  <project path="hardware/qcom/display-caf/msm8974" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-13.0-caf-8974" />
+  <!--<project path="hardware/qcom/display-caf/msm8974" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-13.0-caf-8974" />-->
   <project path="hardware/qcom/display-caf/msm8994" name="CyanogenMod/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-13.0-caf-8994" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" groups="qcom,qcom_gps" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" />
