@@ -32,7 +32,7 @@
   <!--<project path="hardware/libhardware" name="NamelessRom/android_hardware_libhardware" groups="pdk" revision="n-2.1" />-->
   <project path="hardware/qcom/display-caf/msm8974" name="NamelessRom/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="n-3.0-caf-8974" />
   <!--<project path="libcore" name="NamelessRom/android_libcore" revision="n-2.1" />-->
-  <!--<project path="packages/apps/NamelessOTA" name="NamelessRom/android_packages_apps_NamelessOTA" revision="n-2.1" />-->
+  <project path="packages/apps/NamelessOTA" name="NamelessRom/android_packages_apps_NamelessOTA" revision="n-3.0" />
   <project path="packages/apps/Perception" name="NamelessRom/android_packages_apps_Perception" revision="n-3.0" />
   <project path="packages/apps/Screencast" name="NamelessRom/android_packages_apps_Screencast" revision="n-3.0" />
   <project path="packages/apps/Settings" name="NamelessRom/android_packages_apps_Settings" revision="n-3.0" />
