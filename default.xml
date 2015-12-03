@@ -23,6 +23,7 @@
   <!--<project path="bionic" name="NamelessRom/android_bionic" groups="pdk" revision="n-2.1" />-->
   <project path="bootable/recovery-twrp" name="NamelessRom/android_bootable_recovery-twrp" revision="n-3.0" />
   <!--<project path="device/qcom/sepolicy" name="NamelessRom/android_device_qcom_sepolicy" revision="n-2.1" />-->
+  <project path="external/exfat" name="NamelessRom/android_external_exfat" groups="pdk" revision="n-3.0" />
   <project path="external/ntfs-3g" name="NamelessRom/android_external_ntfs-3g" groups="pdk" revision="n-3.0" />
   <project path="external/sepolicy" name="NamelessRom/android_external_sepolicy" groups="pdk" revision="n-3.0" />
   <!--<project path="external/skia" name="NamelessRom/android_external_skia" groups="pdk-cw-fs" revision="n-2.1" />-->
@@ -88,7 +89,6 @@
   <project path="external/e2fsprogs" name="CyanogenMod/android_external_e2fsprogs" groups="pdk" />
   <project path="external/ebtables" name="CyanogenMod/android_external_ebtables" />
   <project path="external/elfutils" name="CyanogenMod/android_external_elfutils" groups="pdk" />
-  <project path="external/exfat" name="CyanogenMod/android_external_exfat" />
   <project path="external/f2fs-tools" name="CyanogenMod/android_external_f2fs-tools" groups="pdk" />
   <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" />
   <project path="external/flac" name="CyanogenMod/android_external_flac" groups="pdk" />
