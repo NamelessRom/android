@@ -32,7 +32,7 @@
   <!--<project path="frameworks/volley" name="NamelessRom/android_frameworks_volley" revision="n-2.1" />-->
   <!--<project path="hardware/libhardware" name="NamelessRom/android_hardware_libhardware" groups="pdk" revision="n-2.1" />-->
   <project path="hardware/qcom/display-caf/msm8974" name="NamelessRom/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="n-3.0-caf-8974" />
-  <!--<project path="libcore" name="NamelessRom/android_libcore" revision="n-2.1" />-->
+  <project path="libcore" name="NamelessRom/android_libcore" groups="pdk" revision="n-3.0" />
   <project path="packages/apps/NamelessOTA" name="NamelessRom/android_packages_apps_NamelessOTA" revision="n-3.0" />
   <project path="packages/apps/Perception" name="NamelessRom/android_packages_apps_Perception" revision="n-3.0" />
   <project path="packages/apps/Screencast" name="NamelessRom/android_packages_apps_Screencast" revision="n-3.0" />
@@ -238,7 +238,7 @@
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" groups="omap4" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
-  <project path="libcore" name="CyanogenMod/android_libcore" groups="pdk" />
+  <!--<project path="libcore" name="CyanogenMod/android_libcore" groups="pdk" />-->
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk" />
   <project path="packages/apps/AudioFX" name="CyanogenMod/android_packages_apps_AudioFX" />
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
