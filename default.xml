@@ -23,6 +23,7 @@
   <!--<project path="bionic" name="NamelessRom/android_bionic" groups="pdk" revision="n-2.1" />-->
   <project path="bootable/recovery-twrp" name="NamelessRom/android_bootable_recovery-twrp" revision="n-3.0" />
   <!--<project path="device/qcom/sepolicy" name="NamelessRom/android_device_qcom_sepolicy" revision="n-2.1" />-->
+  <project path="external/javasqlite" name="NamelessRom/android_external_javasqlite" groups="pdk-cw-fs,pdk-fs" revision="n-3.0" />
   <project path="external/sepolicy" name="NamelessRom/android_external_sepolicy" groups="pdk" revision="n-3.0" />
   <project path="external/sqlite" name="NamelessRom/android_external_sqlite" groups="pdk" revision="n-3.0" />
   <!--<project path="external/skia" name="NamelessRom/android_external_skia" groups="pdk-cw-fs" revision="n-2.1" />-->
@@ -410,7 +411,7 @@
   <project path="external/ipsec-tools" name="platform/external/ipsec-tools" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/iputils" name="platform/external/iputils" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/jack" name="platform/external/jack" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/javasqlite" name="platform/external/javasqlite" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <!--<project path="external/javasqlite" name="platform/external/javasqlite" groups="pdk-cw-fs,pdk-fs" remote="aosp" />-->
   <project path="external/javassist" name="platform/external/javassist" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/jdiff" name="platform/external/jdiff" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/jemalloc" name="platform/external/jemalloc" groups="pdk" remote="aosp" />
