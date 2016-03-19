@@ -33,7 +33,7 @@
   <project path="frameworks/base" name="NamelessRom/android_frameworks_base" revision="n-3.0" />
   <project path="frameworks/native" name="NamelessRom/android_frameworks_native" groups="pdk" revision="n-3.0" />
   <!--<project path="frameworks/volley" name="NamelessRom/android_frameworks_volley" revision="n-2.1" />-->
-  <!--<project path="hardware/libhardware" name="NamelessRom/android_hardware_libhardware" groups="pdk" revision="n-2.1" />-->
+  <project path="hardware/libhardware" name="NamelessRom/android_hardware_libhardware" groups="pdk" revision="n-3.0" />
   <project path="hardware/qcom/display-caf/msm8974" name="NamelessRom/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="n-3.0-caf-8974" />
   <project path="libcore" name="NamelessRom/android_libcore" groups="pdk" revision="n-3.0" />
   <project path="packages/apps/Dialer" name="NamelessRom/android_packages_apps_Dialer" groups="pdk-fs" revision="n-3.0" />
@@ -207,7 +207,7 @@
   <project path="hardware/intel/img/hwcomposer" name="CyanogenMod/android_hardware_intel_img_hwcomposer" groups="intel" />
 -->
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" />
+  <!--<project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" />-->
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
   <project path="hardware/nvidia/audio" name="CyanogenMod/android_hardware_nvidia_audio" groups="nvidia_audio" />
   <project path="hardware/qcom/audio/default" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" />
