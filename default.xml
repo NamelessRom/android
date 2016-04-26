@@ -34,6 +34,7 @@
   <project path="frameworks/native" name="NamelessRom/android_frameworks_native" groups="pdk" revision="n-3.0" />
   <!--<project path="frameworks/volley" name="NamelessRom/android_frameworks_volley" revision="n-2.1" />-->
   <project path="hardware/libhardware" name="NamelessRom/android_hardware_libhardware" groups="pdk" revision="n-3.0" />
+  <project path="hardware/samsung_slsi/exynos5" name="NamelessRom/android_hardware_samsung_slsi_exynos5" revision="n-3.0" />
   <project path="libcore" name="NamelessRom/android_libcore" groups="pdk" revision="n-3.0" />
   <project path="packages/apps/Dialer" name="NamelessRom/android_packages_apps_Dialer" groups="pdk-fs" revision="n-3.0" />
   <project path="packages/apps/NamelessOTA" name="NamelessRom/android_packages_apps_NamelessOTA" revision="n-3.0" />
@@ -210,7 +211,6 @@
   <!--<project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" />-->
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
   <include name="snippets/hal_cm_all.xml" />
-  <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" />
   <project path="hardware/ti/omap4" name="CyanogenMod/android_hardware_ti_omap4" />
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" groups="omap4" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
