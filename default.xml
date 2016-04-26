@@ -23,6 +23,7 @@
   <project path="art" name="NamelessRom/android_art" groups="pdk" revision="n-3.0" />
   <project path="bionic" name="NamelessRom/android_bionic" groups="pdk" revision="n-3.0" />
   <project path="bootable/recovery-twrp" name="NamelessRom/android_bootable_recovery-twrp" revision="n-3.0" />
+  <project path="dalvik" name="NamelessRom/android_dalvik" groups="pdk-cw-fs,pdk-fs" revision="n-3.0" />
   <!--<project path="device/qcom/sepolicy" name="NamelessRom/android_device_qcom_sepolicy" revision="n-2.1" />-->
   <project path="external/javasqlite" name="NamelessRom/android_external_javasqlite" groups="pdk-cw-fs,pdk-fs" revision="n-3.0" />
   <project path="external/sepolicy" name="NamelessRom/android_external_sepolicy" groups="pdk" revision="n-3.0" />
@@ -315,7 +316,7 @@
 <!-- END CYANOGENMOD -->
 
 <!-- BEGIN AOSP -->
-  <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <!--<project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" remote="aosp" />-->
   <project path="developers/build" name="platform/developers/build" remote="aosp" />
   <project path="developers/samples/android" name="platform/developers/samples/android" remote="aosp" />
   <!--<project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk" remote="aosp" />-->
