@@ -24,16 +24,14 @@
   <project path="bionic" name="NamelessRom/android_bionic" groups="pdk" revision="n-3.0" />
   <project path="bootable/recovery-twrp" name="NamelessRom/android_bootable_recovery-twrp" revision="n-3.0" />
   <project path="dalvik" name="NamelessRom/android_dalvik" groups="pdk-cw-fs,pdk-fs" revision="n-3.0" />
-  <!--<project path="device/qcom/sepolicy" name="NamelessRom/android_device_qcom_sepolicy" revision="n-2.1" />-->
+  <project path="external/conscrypt" name="NamelessRom/android_external_conscrypt" groups="pdk-cw-fs,pdk-fs" revision="n-3.0" />
   <project path="external/javasqlite" name="NamelessRom/android_external_javasqlite" groups="pdk-cw-fs,pdk-fs" revision="n-3.0" />
   <project path="external/sepolicy" name="NamelessRom/android_external_sepolicy" groups="pdk" revision="n-3.0" />
   <project path="external/sqlite" name="NamelessRom/android_external_sqlite" groups="pdk" revision="n-3.0" />
-  <!--<project path="external/skia" name="NamelessRom/android_external_skia" groups="pdk-cw-fs" revision="n-2.1" />-->
   <project path="external/webp" name="NamelessRom/android_external_webp" groups="pdk,qcom_msm8x26" revision="n-3.0" />
   <project path="frameworks/av" name="NamelessRom/android_frameworks_av" revision="n-3.0" />
   <project path="frameworks/base" name="NamelessRom/android_frameworks_base" revision="n-3.0" />
   <project path="frameworks/native" name="NamelessRom/android_frameworks_native" groups="pdk" revision="n-3.0" />
-  <!--<project path="frameworks/volley" name="NamelessRom/android_frameworks_volley" revision="n-2.1" />-->
   <project path="hardware/libhardware" name="NamelessRom/android_hardware_libhardware" groups="pdk" revision="n-3.0" />
   <project path="hardware/samsung_slsi/exynos5" name="NamelessRom/android_hardware_samsung_slsi_exynos5" revision="n-3.0" />
   <project path="libcore" name="NamelessRom/android_libcore" groups="pdk" revision="n-3.0" />
@@ -42,7 +40,6 @@
   <project path="packages/apps/Perception" name="NamelessRom/android_packages_apps_Perception" revision="n-3.0" />
   <project path="packages/apps/Screencast" name="NamelessRom/android_packages_apps_Screencast" revision="n-3.0" />
   <project path="packages/apps/Settings" name="NamelessRom/android_packages_apps_Settings" revision="n-3.0" />
-  <!--<project path="packages/apps/SetupWizard" name="NamelessRom/android_packages_apps_SetupWizard" revision="n-2.1" />-->
   <project path="system/core" name="NamelessRom/android_system_core" groups="pdk" revision="n-3.0" />
   <project path="system/vold" name="NamelessRom/android_system_vold" groups="pdk" revision="n-3.0" />
   <project path="vendor/cm" name="NamelessRom/android_vendor_cm_dummy" revision="n-3.0" />
@@ -352,7 +349,6 @@
   <project path="external/clang" name="platform/external/clang" groups="pdk" remote="aosp" />
   <project path="external/cmockery" name="platform/external/cmockery" groups="pdk-fs" remote="aosp" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" remote="aosp" />
-  <project path="external/conscrypt" name="platform/external/conscrypt" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/crcalc" name="platform/external/crcalc" groups="pdk-fs" remote="aosp" />
   <project path="external/deqp" name="platform/external/deqp" groups="pdk-fs" remote="aosp" />
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
