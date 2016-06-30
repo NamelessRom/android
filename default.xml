@@ -26,6 +26,7 @@
   <project path="dalvik" name="NamelessRom/android_dalvik" groups="pdk-cw-fs,pdk-fs" revision="n-3.0" />
   <project path="external/conscrypt" name="NamelessRom/android_external_conscrypt" groups="pdk-cw-fs,pdk-fs" revision="n-3.0" />
   <project path="external/javasqlite" name="NamelessRom/android_external_javasqlite" groups="pdk-cw-fs,pdk-fs" revision="n-3.0" />
+  <project path="external/okhttp" name="NamelessRom/android_external_okhttp" groups="pdk-cw-fs,pdk-fs" revision="n-3.0" />
   <project path="external/sepolicy" name="NamelessRom/android_external_sepolicy" groups="pdk" revision="n-3.0" />
   <project path="external/sqlite" name="NamelessRom/android_external_sqlite" groups="pdk" revision="n-3.0" />
   <project path="external/webp" name="NamelessRom/android_external_webp" groups="pdk,qcom_msm8x26" revision="n-3.0" />
@@ -143,7 +144,7 @@
   <project path="external/nano" name="CyanogenMod/android_external_nano" />
   <project path="external/nist-sip" name="CyanogenMod/android_external_nist-sip" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" />
-  <project path="external/okhttp" name="CyanogenMod/android_external_okhttp" groups="pdk-cw-fs,pdk-fs" />
+  <!--<project path="external/okhttp" name="CyanogenMod/android_external_okhttp" groups="pdk-cw-fs,pdk-fs" />-->
   <project path="external/openssh" name="CyanogenMod/android_external_openssh" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/p7zip" name="CyanogenMod/android_external_p7zip" />
   <project path="external/pcre" name="CyanogenMod/android_external_pcre" groups="pdk" />
