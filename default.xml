@@ -20,7 +20,6 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="android" name="NamelessRom/android" revision="n-3.0" />
-  <project path="art" name="NamelessRom/android_art" groups="pdk" revision="n-3.0" />
   <project path="bionic" name="NamelessRom/android_bionic" groups="pdk" revision="n-3.0" />
   <project path="bootable/recovery-twrp" name="NamelessRom/android_bootable_recovery-twrp" revision="n-3.0" />
   <project path="dalvik" name="NamelessRom/android_dalvik" groups="pdk-cw-fs,pdk-fs" revision="n-3.0" />
@@ -59,7 +58,7 @@
   </project>-->
   <!--<project path="android" name="CyanogenMod/android" />-->
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
-  <!--<project path="art" name="CyanogenMod/android_art" groups="pdk" />-->
+  <project path="art" name="CyanogenMod/android_art" groups="pdk" />
   <!--<project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />-->
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="marshmallow-cts-release" remote="aosp" />
